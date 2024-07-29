@@ -1,5 +1,13 @@
 {
+  "homepage": "https://EVIL-HUNT.github.io/Woodpecker-Hackathon",
   "dependencies": {
     "html-to-image": "^1.11.11"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts":{
+  "predeploy":"npm run build",
+  "deploy":"gh-pages -d build"
+}
 }
