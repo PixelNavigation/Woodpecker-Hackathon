@@ -1,0 +1,167 @@
+.arima-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom right, black, #4C1D95);
+    color: white;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.arima-forecast {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arima-container h2 {
+    padding-top: 10px;
+    color: #aa00ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dropzone {
+    border: 2px dashed #000000;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+    background: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.dropzone:hover {
+    background-color: #e9ecefa1;
+}
+
+.dropzone p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.arima-upload-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8a5cf680;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 800px;
+}
+
+.arima-upload-button:hover {
+    background-color: #c05cf680;
+}
+
+.arima-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.arima-download-button,
+.arima-save-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.arima-download-button:hover,
+.arima-save-button:hover {
+    background-color: #4caf4f69;
+}
+
+.popup-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2rem;
+    color: black;
+}
+
+.popup-card h3 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.forecast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: black;
+}
+
+.forecast-table th,
+.forecast-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: black;
+}
+
+.forecast-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.forecast-table tr:last-child td {
+    border-bottom: none;
+}
+
+.forecast-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.forecast-table tr:hover {
+    background-color: #e8e8e8;
+}
+
+.close-button {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    color: #000;
+}
+
+.close-button:hover {
+    color: #555;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
