@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Woodpecker-Hackathon/static/css/main.0a4fa89c.css",
+    "main.js": "/Woodpecker-Hackathon/static/js/main.98de3540.js",
+    "static/js/239.dfdb0d71.chunk.js": "/Woodpecker-Hackathon/static/js/239.dfdb0d71.chunk.js",
+    "static/js/213.1276bd44.chunk.js": "/Woodpecker-Hackathon/static/js/213.1276bd44.chunk.js",
+    "static/js/732.d8cbb399.chunk.js": "/Woodpecker-Hackathon/static/js/732.d8cbb399.chunk.js",
+    "static/media/robo.png": "/Woodpecker-Hackathon/static/media/robo.f6f0229c41505b6daa35.png",
+    "static/media/logo.svg": "/Woodpecker-Hackathon/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Woodpecker-Hackathon/index.html",
+    "main.0a4fa89c.css.map": "/Woodpecker-Hackathon/static/css/main.0a4fa89c.css.map",
+    "main.98de3540.js.map": "/Woodpecker-Hackathon/static/js/main.98de3540.js.map",
+    "239.dfdb0d71.chunk.js.map": "/Woodpecker-Hackathon/static/js/239.dfdb0d71.chunk.js.map",
+    "213.1276bd44.chunk.js.map": "/Woodpecker-Hackathon/static/js/213.1276bd44.chunk.js.map",
+    "732.d8cbb399.chunk.js.map": "/Woodpecker-Hackathon/static/js/732.d8cbb399.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a4fa89c.css",
+    "static/js/main.98de3540.js"
+  ]
+}
